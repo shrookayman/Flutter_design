@@ -1,0 +1,14 @@
+import 'package:flutter/material.dart';
+import 'package:session2_task/screen/home_screen.dart';
+
+
+class AppRoot extends StatelessWidget {
+  const AppRoot({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: HomeScreen(),
+    );
+  }
+}
